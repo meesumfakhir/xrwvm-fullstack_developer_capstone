@@ -2,64 +2,70 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>About Us - Dealership Application</title>
     <link rel="stylesheet" href="/static/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>About Us</title>
 </head>
 <body>
-
-    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: darkturquoise;">
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color:darkturquoise; height: 80px;">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Dealerships</a>
-            <div class="collapse navbar-collapse">
+            <h2 style="padding-right: 5%;">Dealerships</h2>
+            <div class="collapse navbar-collapse" id="navbarText">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
-                    <li class="nav-item"><a class="nav-link active" href="/about">About Us</a></li>
-                    <li class="nav-item"><a class="nav-link" href="/contact">Contact Us</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/about">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/contact">Contact Us</a>
+                    </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <div class="container mt-5">
-        <div class="text-center mb-5">
+    <div class="card" style="width: 80%; margin: 5% auto; padding: 20px;">
+        <div class="text-center">
             <h1>About Us</h1>
             <p>Welcome to our Dealership review portal. We are dedicated to providing the best insights on car dealerships.</p>
         </div>
-
+        
         <div class="row">
+            <!-- Member 1 -->
             <div class="col-md-4">
-                <div class="card">
+                <div class="card p-3">
                     <img class="card-img-top" src="/static/person.png" alt="Alice Johnson">
                     <div class="card-body">
-                        <h5 class="card-title">Alice Johnson</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">Lead Developer</h6>
+                        <p class="font-weight-bold"><strong>Alice Johnson</strong></p>
+                        <p>Lead Developer</p>
                         <p class="card-text">Alice is a full-stack expert with over 5 years of experience in building scalable web applications.</p>
-                        <p><strong>Email:</strong> alice.j@dealership.com</p>
+                        <p>alice.j@dealership.com</p>
                     </div>
                 </div>
             </div>
-
+            <!-- Member 2 -->
             <div class="col-md-4">
-                <div class="card">
+                <div class="card p-3">
                     <img class="card-img-top" src="/static/person.png" alt="Bob Smith">
                     <div class="card-body">
-                        <h5 class="card-title">Bob Smith</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">UI/UX Designer</h6>
+                        <p class="font-weight-bold"><strong>Bob Smith</strong></p>
+                        <p>UI/UX Designer</p>
                         <p class="card-text">Bob focuses on creating intuitive user interfaces that make navigating car reviews a breeze for everyone.</p>
-                        <p><strong>Email:</strong> bob.s@dealership.com</p>
+                        <p>bob.s@dealership.com</p>
                     </div>
                 </div>
             </div>
-
+            <!-- Member 3 -->
             <div class="col-md-4">
-                <div class="card">
+                <div class="card p-3">
                     <img class="card-img-top" src="/static/person.png" alt="Charlie Davis">
                     <div class="card-body">
-                        <h5 class="card-title">Charlie Davis</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">Data Analyst</h6>
+                        <p class="font-weight-bold"><strong>Charlie Davis</strong></p>
+                        <p>Data Analyst</p>
                         <p class="card-text">Charlie specializes in data visualization, helping users understand dealership trends through clear analytics.</p>
-                        <p><strong>Email:</strong> charlie.d@dealership.com</p>
+                        <p>charlie.d@dealership.com</p>
                     </div>
                 </div>
             </div>
